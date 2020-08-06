@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;900&family=Space+Mono:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Inconsolata', 'SpaceMono';
+}
+
+.title h3 {
+
+    margin-left: 4.8125rem;
+    margin-top: 2.5rem;
+    height: 1.5625rem;
+   
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.5625rem;
+    letter-spacing: -0.08rem;
+    text-transform: uppercase;
+    color: #333333;
+
+
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 13rem auto;
+}
+
+
+
+.wrapper__content-img {
+    margin-right: 3.5rem;
+    width: 50%;
+}
+
+.scarecrow {
+    width: 75%;
+}
+
+.wrapper__content-text {
+    width: 50%;
+    margin-left: 3.5rem;
+}
+
+.wrapper__content-text h1 {
+    font-family: 'Space Mono';
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 6rem;
+    letter-spacing: -0.035em;
+    color: #333333;
+}
+
+.wrapper__content-text p {
+    margin-top: 3.68rem;
+
+        font-family: 'Space Mono';
+        font-style: normal;
+         font-weight: 600;
+        font-size: 1.5rem;
+        line-height: 2.25rem;
+        letter-spacing: -0.035em;
+        color: #4f4f4f;
+}
+
+.wrapper__content-text a {
+    display: inline-block;
+    margin-top: 6rem;
+    background-color:#333333;
+    color: white;
+    padding: 1.3rem;
+    text-decoration: none;
+}
+
+.brand {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+   .scarecrow {
+       width: 75%;
+   }
+}
+
+@media only screen and (max-width: 1525px) {
+    .wrapper__content-text h1 {
+        font-size: 3.5rem;
+    }
+    .wrapper__content-text p {
+        font-size: 1.3rem;
+    }
+
+    .scarecrow {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin: 13rem auto;
+    }
+
+    .wrapper__content-img{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 4rem;
+    }
+
+    .scarecrow {
+        width: 50%;
+    }
+
+    .wrapper__content-text {
+        width: 100%;
+        text-align: left;
+    }
+     .wrapper__content-text h1{
+         font-size: 2.8rem;
+         text-align: left;
+     }
+      .wrapper__content-text  p{
+           font-size: 1.2rem;
+           font-weight: 200;
+          text-align: justify;
+      }
+
+    .brand{
+        font-size: 1rem ;
+    }
+
+}

@@ -89,8 +89,35 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+
+    .wrapper{
+        width: 70%;
+       
+    }
+
+    .wrapper__content-img{
+        margin: -8rem 0;
+    }
    .scarecrow {
-       width: 75%;
+       width: 85%;
+   }
+
+   .wrapper__content-text h1{
+     
+      font-size: 3rem;
+      font-weight: 600;
+      line-height: 3.5rem;
+      letter-spacing: -0.035em;
+   }
+
+   .wrapper__content-text a {
+       margin-top: 2.5rem;
+   }
+
+   .brand {
+       margin-top: -2rem;
+       text-align: center;
+       font-size: 1rem;
    }
 }
 
